@@ -1,0 +1,24 @@
+{
+  "name": "yingyingying",
+  "version": "1.0.0",
+  "description": "Just \"yingyingying\" to write blogs in Markdown style.",
+  "main": "yingyingying.js",
+  "scripts": {
+    "start": "node yingyingying.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/painterdrown/yingyingying.git"
+  },
+  "author": "painterdrown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/painterdrown/yingyingying/issues"
+  },
+  "homepage": "https://github.com/painterdrown/yingyingying#readme",
+  "dependencies": {
+    "github-markdown-css": "^2.10.0",
+    "markdown-it": "^8.4.2"
+  }
+}
