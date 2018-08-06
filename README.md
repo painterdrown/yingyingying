@@ -10,5 +10,5 @@ npm install
 cp ignore.json.example ignore.json
 # configure your own ignore.json
 
-node yingyingying.js example assets/img/icon.png
+node yingyingying.js example example/assets/img/icon.png
 ```

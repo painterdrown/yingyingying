@@ -1,7 +1,7 @@
 function show_usage() {
   console.log('usage: node yingyingying.js BLOG_PATH FAVICON_PATH');
-  console.log('  BLOG_PATH: abolute path to your local blogs');
-  console.log('  FAVICON_PATH: optional, abolute path to your favicon.ico');
+  console.log('  BLOG_PATH: path to your local blogs');
+  console.log('  FAVICON_PATH: optional, path to your favicon.ico');
 }
 
 function get_prefix(count) {
