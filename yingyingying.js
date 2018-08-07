@@ -81,7 +81,10 @@ const md = require('markdown-it')({
   html: true,
   linkify: true,
   typographer: true,
-});
+})
+.use(require('markdown-it-sub'))
+.use(require('markdown-it-sup'))
+.use(require('markdown-it-toc-and-anchor').default);
 
 const blog_path = process.argv[2];
 const favicon_path = process.argv.length > 3 ? process.argv[3] : null;
